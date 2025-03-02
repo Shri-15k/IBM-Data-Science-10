@@ -1,65 +1,49 @@
-This Capstone project is the final course in the IBM Data Science Professional Certificate specialization. It consolidates all the skills learned throughout the specialization into a practical, hands-on project.
+# 🚀 Binance Trade Data Analysis
 
-📄 Project Overview
+## 📌 Project Overview
+This project focuses on analyzing Binance trade data to calculate key financial metrics and provide insights into trading performance. By processing historical trade data, we aim to rank trading accounts based on their profitability and risk-adjusted returns.
 
-SpaceX has revolutionized the commercial space industry by making space travel more affordable. The Falcon 9 rocket, which costs approximately $62 million per launch, significantly reduces costs compared to other providers charging around $165 million per launch. A key factor in cost reduction is reusability, specifically the successful landing of the first stage.
+## 📊 Objectives
+- Calculate essential financial metrics:
+  - Return on Investment (ROI)
+  - Profit and Loss (PnL)
+  - Sharpe Ratio
+  - Maximum Drawdown (MDD)
+  - Win Rate
+  - Number of Winning Positions
+  - Total Number of Positions
+- Rank trading accounts based on the above metrics.
+- Provide data-driven insights to optimize trading strategies.
 
-The objective of this project is to predict the likelihood of the first-stage landing using machine learning models. By analyzing publicly available data, we aim to understand the factors influencing reusability and determine the most effective classification algorithm.
+## 📑 Data Collection
+- **Source:** Binance API (historical trade data)
+- **Processing:**
+  - Extracting trade data
+  - Cleaning and formatting
+  - Handling missing values
 
-📄 Research Questions
+## 📊 Exploratory Data Analysis (EDA)
+- Understanding trade distributions and trends.
+- Analyzing profitability and risk factors.
+- Visualizing trading performance over time.
 
-How do variables such as payload mass, launch site, number of flights, and orbits affect the success of the first-stage landing?
+## 🤖 Machine Learning & Statistical Analysis
+- Applying statistical methods to assess risk-adjusted returns.
+- Evaluating different ranking strategies based on calculated metrics.
 
-Does the rate of successful landings increase over the years?
+## 📈 Visualization & Reporting
+- Interactive dashboards for data visualization.
+- Summary reports with key insights.
 
-Which classification algorithm is best suited for predicting first-stage landing success?
+## 🛠️ Technologies Used
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn, SciPy, Scikit-learn)
+- **Binance API** (data extraction)
+- **Jupyter Notebook / Google Colab** (code execution and analysis)
 
-📄 Methodology
+## 🚀 Future Scope
+- Incorporate more advanced risk metrics.
+- Implement AI-based trade optimization strategies.
+- Expand analysis to other financial markets.
 
-1. Data Collection
-
-Extracted launch data using SpaceX REST API
-
-Performed web scraping from Wikipedia for historical launch details
-
-2. Data Wrangling
-
-Cleaned and filtered relevant data
-
-Handled missing values to ensure data integrity
-
-Applied One-Hot Encoding to prepare data for binary classification
-
-3. Exploratory Data Analysis (EDA)
-
-Conducted visual and statistical analysis to identify key patterns
-
-Used SQL for querying and summarizing the dataset
-
-4. Interactive Visual Analytics
-
-Developed interactive dashboards using Folium and Plotly Dash
-
-Mapped launch sites and success rates visually
-
-5. Predictive Modeling
-
-Built and fine-tuned classification models to predict landing success
-
-Compared different algorithms to select the most accurate model
-
-📄 Technologies Used
-
-Python (Pandas, NumPy, Scikit-Learn, BeautifulSoup, Requests)
-
-SQL for querying structured data
-
-Folium & Plotly Dash for interactive visualizations
-
-Machine Learning (Logistic Regression, Decision Trees, Random Forest, SVM)
-
-Jupyter Notebook & Google Colab for development and experimentation
-
-📄 Conclusion
-
-This project demonstrates the power of data science and machine learning in analyzing real-world problems. By predicting SpaceX first-stage reusability, we provide valuable insights into cost reduction strategies for space exploration.
+## 📬 Contact
+For any queries, feel free to reach out!
