@@ -1,45 +1,58 @@
-## 📌 Project Overview
-This project focuses on analyzing Binance trade data to calculate key financial metrics and provide insights into trading performance. By processing historical trade data, we aim to rank trading accounts based on their profitability and risk-adjusted returns.
+# 📌 Applied Data Science Capstone
 
-## 📌 Objectives
-- Calculate essential financial metrics:
-  - Return on Investment (ROI)
-  - Profit and Loss (PnL)
-  - Sharpe Ratio
-  - Maximum Drawdown (MDD)
-  - Win Rate
-  - Number of Winning Positions
-  - Total Number of Positions
-- Rank trading accounts based on the above metrics.
-- Provide data-driven insights to optimize trading strategies.
+This Capstone project is the final course in the IBM Data Science Professional Certificate specialization. It applies all the skills and concepts learned throughout the specialization in a real-world scenario.
 
-## 📌 Data Collection
-- **Source:** Binance API (historical trade data)
-- **Processing:**
-  - Extracting trade data
-  - Cleaning and formatting
-  - Handling missing values
+## 📄 Project Overview
+SpaceX has revolutionized space travel by making it more cost-effective through reusable rocket technology. A Falcon 9 rocket launch costs approximately $62 million, significantly lower than other providers charging over $165 million per launch. The cost savings largely depend on the successful landing and reuse of the first-stage booster. The goal of this project is to predict whether the first-stage booster will successfully land, using machine learning techniques applied to publicly available data.
 
-## 📌 Exploratory Data Analysis (EDA)
-- Understanding trade distributions and trends.
-- Analyzing profitability and risk factors.
-- Visualizing trading performance over time.
+## 📄 Key Questions
+- How do factors such as payload mass, launch site, number of flights, and orbit type impact the success of first-stage landings?
+- Has the success rate of first-stage landings improved over time?
+- Which machine learning algorithm is best suited for this binary classification problem?
 
-## 📌 Machine Learning & Statistical Analysis
-- Applying statistical methods to assess risk-adjusted returns.
-- Evaluating different ranking strategies based on calculated metrics.
+## 📄 Methodology
+### 1. Data Collection
+- Extracting launch data from the SpaceX REST API
+- Web scraping launch records from Wikipedia
 
-## 📌 Visualization & Reporting
-- Interactive dashboards for data visualization.
-- Summary reports with key insights.
+### 2. Data Wrangling
+- Filtering relevant data fields
+- Handling missing values
+- Encoding categorical variables using One-Hot Encoding for machine learning
 
-## 📌 Technologies Used
-- **Python** (Pandas, NumPy, Matplotlib, Seaborn, SciPy, Scikit-learn)
-- **Binance API** (data extraction)
-- **Jupyter Notebook / Google Colab** (code execution and analysis)
+### 3. Exploratory Data Analysis (EDA)
+- Visualizing trends in launch data
+- Querying data using SQL for deeper insights
 
-## 📌 Future Scope
-- Incorporate more advanced risk metrics.
-- Implement AI-based trade optimization strategies.
-- Expand analysis to other financial markets.
+### 4. Interactive Data Visualization
+- Using **Folium** for geographical visualizations of launch sites
+- Leveraging **Plotly Dash** to create interactive dashboards
 
+### 5. Machine Learning for Prediction
+- Building, tuning, and evaluating classification models
+- Comparing models to determine the best performing one for predicting first-stage landings
+
+## 📄 Tools & Technologies Used
+- **Python** (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Plotly, Folium)
+- **APIs & Web Scraping** (BeautifulSoup, Requests)
+- **SQL** (for querying structured data)
+- **Machine Learning Models** (Logistic Regression, Decision Trees, Support Vector Machines, and more)
+- **Dash & Folium** (for interactive data visualization)
+
+## 📄 Project Structure
+```
+|-- data/                 # Contains raw and processed datasets
+|-- notebooks/            # Jupyter notebooks for analysis and model building
+|-- models/               # Trained machine learning models
+|-- app/                  # Interactive visualization using Dash
+|-- README.md             # Project documentation
+|-- requirements.txt      # List of dependencies
+```
+
+## 📄 Results & Insights
+- Identified key factors influencing first-stage landings
+- Observed an increasing trend in successful landings over time
+- Determined the most effective machine learning model for prediction
+
+## 📄 Conclusion
+By leveraging data science and machine learning, this project provides insights into SpaceX's launch success, enabling better predictions and cost estimations for future missions.
